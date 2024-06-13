@@ -1,0 +1,46 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #1c1c1c; /* Change to the desired color */
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #002970; /* Add a top border for better separation from the content */
+}
+
+.text-footer {
+    font-size: 20px;
+}
+
+.footer-hyper-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 900px) {
+    .footer-container {
+        flex-direction: column;
+        border-bottom: 3px solid #002970;
+        min-height: 50px;
+    }
+
+    .text-footer {
+        font-size: 15px;
+    }
+
+    .footer-hyper-link {
+        margin: 5px 0;
+    }
+}

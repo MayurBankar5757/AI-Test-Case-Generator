@@ -1,0 +1,47 @@
+.test-case-form {
+  max-width: 400px; 
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 20px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px; 
+}
+
+label {
+  display: block; 
+}
+
+textarea {
+  width: 100%;
+  padding: 8px; 
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical; 
+}
+
+button.generate-btn {
+  display: block;
+  width: 100%;
+  padding: 10px; 
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.generate-btn:hover {
+  background-color: #45a049;
+}

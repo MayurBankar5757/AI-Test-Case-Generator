@@ -1,0 +1,65 @@
+/* Home.css */
+.home {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  header {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .main-card {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color:#4caf50;
+  }
+  
+  .main-feature-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    h3 {
+      color: #4caf50;
+    }
+  
+    p {
+      color: #333;
+    }
+  }
+  
+  .about,
+  .get-started {
+    margin-bottom: 40px;
+  }
+  
+  .title{
+    margin-top: 10px;
+  }
+  
